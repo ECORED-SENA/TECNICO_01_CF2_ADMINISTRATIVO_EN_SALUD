@@ -1,0 +1,107 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        include includes/head.pug
+
+
+    body#page-home.theme-dark.page-header-textura
+
+        header#CursoPresentacion.curso-presentacion.page-header
+            .page-textura
+                .container
+
+                    include includes/page-home_topbar.pug
+
+                    +pageHeader("Tema", "assets/images/header/header_media.png", "")   
+
+        section#ResultadosAprendizaje.curso-resultados.section.bg-base-light
+
+            .container
+
+                include includes/page-home_resultados.pug  
+
+        section#IndiceTematico.curso-indice-tematico.section
+
+            .container
+
+                h2 Desarrollo de <br>contenidos
+                .brand-line-primary
+
+                .row.justify-content-center
+                    .col-12.col-sm-10
+                        .card.wow.flipInX(data-wow-delay=".4s")
+                            
+                            .card-body
+
+                                ul.list-group.list-group-flush.list.my-n3.nav-temas
+                                    +navTemaItem('1', 'Sistema de seguridad social integral (Ley 100 de 1993)', '#tema1_1')
+                                    +navTemaItem('2', 'Constitución Política de Colombia', '#tema2')
+                                    +navTemaItem('3', 'Mecanismos y sistemas de financiación del sector salud.', '#tema3')
+                                    +navTemaItem('4', 'Reforma del sistema general de seguridad social en salud (Ley 1438 de 2011)', '#tema4')
+                                    +navTemaItem('5', 'El Sistema General de Riesgos Profesionales. (Decreto 1295 de 1994)', '#tema5')
+                                    +navTemaItem('6', 'Política de atención integral en salud —PAÍS y el modelo de acción integral territorial - MAlTE (Resolución 2626 de 2019)', '#tema6')
+                                    +navTemaItem('7', 'Tipos de clientes', '#tema7')
+                                    +navTemaItem('8', 'La satisfacción del cliente: elementos y reto', '#tema8')
+                                    +navTemaItem('9', 'Mecanismo para el reporte de información que permitirá la verificación de la entrega de la Carta de Derechos y Deberes del Afiliado y del Paciente y la Carta de Desempeño de la EPS. (Resolución 1379 de 2015)', '#tema9')
+                                    +navTemaItem('10', 'Plataforma estratégica', '#tema10')
+                                    +navTemaItem('11', 'La comunicación', '#tema11')
+                                    +navTemaItem('12', 'Servicio al cliente', '#tema12')
+                                    +navTemaItem('13', 'Trabajo en equipo: autoestima, autonomía', '#tema13')
+                                    +navTemaItem('14', 'Etiqueta y protocolo', '#tema14')
+                                    +navTemaItem('glosary', 'Glosario', '#glosario')
+                                    +navTemaItem('folder', 'Material complementario', '#anexos')
+                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
+
+
+        section#mainContent         
+            #tema-1
+                include pages/1-tema.pug
+            #tema-2
+                include pages/2-tema.pug
+            #tema-3
+                include pages/3-tema.pug
+            #tema-4
+                include pages/4-tema.pug
+            #tema-5
+                include pages/5-tema.pug
+            #tema-6
+                include pages/6-tema.pug  
+            #tema-7
+                include pages/7-tema.pug
+            #tema-8
+                include pages/8-tema.pug
+            #tema-9
+                include pages/9-tema.pug
+            #tema-10
+                include pages/10-tema.pug
+            #tema-11
+                include pages/11-tema.pug
+            #tema-12
+                include pages/12-tema.pug 
+            #tema-13
+                include pages/13-tema.pug
+            #tema-14
+                include pages/14-tema.pug    
+            #glosario
+                include pages/glosario.pug
+            #anexos
+                include pages/material-complementario.pug
+            #referencias
+                include pages/referencias.pug
+
+
+        +creditosFooter("assets/images/logos/senaLogo.svg")
+
+
+        a.scroll-to-top-btn
+            .fa.fa-angle-up.fa-2x
+
+        script(src="assets/js/vendor.js")
+        script(src="js/local.js")
+
+
+
+
+

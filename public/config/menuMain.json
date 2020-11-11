@@ -1,0 +1,139 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "modificaciones",
+    "title": "1. Modificaciones en el sistema general de seguridad social en salud",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "modificaciones",
+        "title": "1.1 Ley número 1122 de 2007",
+        "anchor": "tema1_1"
+      },
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "modificaciones",
+        "title": "1.2 Objeto",
+        "anchor": "tema1_2"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "regimen",
+    "title": "2. Régimen de pagos compartidos y cuotas moderadoras dentro del sistema general de seguridad social en salud",
+    "breadcrumb": ["Inicio","tema 2"],
+    "path": "pages/2-tema.html"    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "disposiciones",
+    "title": "3. Disposiciones para el no cobro de copagos a poblaciones especiales en el régimen subsidiado",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/3-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "exencion",
+    "title": "4. Exención concurrente del pago de cuotas moderadoras, y copagos por leyes especiales",
+    "breadcrumb": ["Inicio","tema 4"],
+    "path": "pages/4-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "plataformas",
+    "title": "5. Plataformas de salud",
+    "breadcrumb": ["Inicio","tema 5"],
+    "path": "pages/5-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "sobre",
+    "title": "6. Sobre el sistema único de habilitación",
+    "breadcrumb": ["Inicio","tema 6"],
+    "path": "pages/6-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "operatividad",
+    "title": "7. Sobre la operatividad del sistema único de acreditación",
+    "breadcrumb": ["Inicio","tema 7"],
+    "path": "pages/7-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "implementar",
+    "title": "8. Como implementar el PAMEC con enfoque en seguridad del paciente",
+    "breadcrumb": ["Inicio","tema 8"],
+    "path": "pages/8-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "pic",
+    "title": "9. Plan de intervenciones colectivas – PIC",
+    "breadcrumb": ["Inicio","tema 9"],
+    "path": "pages/9-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "servicio_al_cliente",
+    "title": "10. Servicio al cliente",
+    "breadcrumb": ["Inicio","tema 10"],
+    "path": "pages/10-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "satisfaccion",
+    "title": "11. Satisfacción del cliente",
+    "breadcrumb": ["Inicio","tema 11"],
+    "path": "pages/11-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "metodo",
+    "title": "12. Método proactivo y reactivo",
+    "breadcrumb": ["Inicio","tema 12"],
+    "path": "pages/12-tema.html"    
+    
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "pqrs",
+    "title": "13. PQRS",
+    "breadcrumb": ["Inicio","tema 13"],
+    "path": "pages/13-tema.html"    
+    
+  }
+
+]
+
